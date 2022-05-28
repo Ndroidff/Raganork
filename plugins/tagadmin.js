@@ -1,11 +1,29 @@
-/* Codded by @phaticusthiccy
-Telegram: t.me/phaticusthiccy
-Instagram: www.instagram.com/kyrie.baran
-*/
+const {
 
-const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
-const Config = require('../config');
+  bot
+
+} = require('../lib/')
+
+bot(
+
+	{		pattern: 'name ?(.*)',
+
+		fromMe: true,
+
+		desc: 'use of plugin ivde kodknm',
+
+		type: 'misc',
+
+	}, async( message, match ) => {
+
+
+
+
+
+
+
+
+
 
 const Language = require('../language');
 const Lang = Language.getString('tagall');
